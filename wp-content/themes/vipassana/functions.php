@@ -10,4 +10,11 @@ function vipassana_main_files() {
 
 add_action('wp_enqueue_scripts', 'vipassana_main_files');
 
+function custom_features() {
+	add_theme_support('title-tag');
+}
+
+
+add_action('after_setup_theme', 'custom_features');
+
 ?>
