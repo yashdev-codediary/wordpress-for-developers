@@ -11,9 +11,7 @@ function vipassana_main_files() {
 add_action('wp_enqueue_scripts', 'vipassana_main_files');
 
 function custom_features() {
-	register_nav_menu('HeaderMenuLocation', 'Header Menu Location');
-	register_nav_menu('FooterMenuLocationOne', 'Footer Menu Location One');
-	register_nav_menu('FooterMenuLocationTwo', 'Footer Menu Location Two');
+	
 	add_theme_support('title-tag');
 }
 
