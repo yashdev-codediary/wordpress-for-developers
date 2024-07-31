@@ -8,7 +8,7 @@ function vipassana_main_files() {
 	wp_enqueue_style('vipassana_stylesheet_1.0', get_theme_file_uri('/build/index.css'));
 }
 
-add_action('wp_enqueue_scripts', 'vipassana_main_files');
+add_action('wp_enqueue_scripts', 'vipassana_main_files'); 
 
 function custom_features() {
 	
